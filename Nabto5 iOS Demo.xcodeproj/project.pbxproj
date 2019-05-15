@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D4F65A672282DE7200215094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F65A662282DE7200215094 /* AppDelegate.m */; };
-		D4F65A6A2282DE7200215094 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F65A692282DE7200215094 /* MasterViewController.m */; };
+		D4F65A6A2282DE7200215094 /* MasterViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4F65A692282DE7200215094 /* MasterViewController.mm */; };
 		D4F65A6D2282DE7200215094 /* DetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4F65A6C2282DE7200215094 /* DetailViewController.mm */; };
 		D4F65A702282DE7200215094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F65A6E2282DE7200215094 /* Main.storyboard */; };
 		D4F65A722282DE7400215094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F65A712282DE7400215094 /* Assets.xcassets */; };
@@ -34,7 +34,7 @@
 		D4F65A652282DE7200215094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4F65A662282DE7200215094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D4F65A682282DE7200215094 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D4F65A692282DE7200215094 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D4F65A692282DE7200215094 /* MasterViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MasterViewController.mm; sourceTree = "<group>"; };
 		D4F65A6B2282DE7200215094 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D4F65A6C2282DE7200215094 /* DetailViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DetailViewController.mm; sourceTree = "<group>"; };
 		D4F65A6F2282DE7200215094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				D4F65A652282DE7200215094 /* AppDelegate.h */,
 				D4F65A662282DE7200215094 /* AppDelegate.m */,
 				D4F65A682282DE7200215094 /* MasterViewController.h */,
-				D4F65A692282DE7200215094 /* MasterViewController.m */,
+				D4F65A692282DE7200215094 /* MasterViewController.mm */,
 				D4F65A6B2282DE7200215094 /* DetailViewController.h */,
 				D4F65A6C2282DE7200215094 /* DetailViewController.mm */,
 				D4F65A6E2282DE7200215094 /* Main.storyboard */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F65A6A2282DE7200215094 /* MasterViewController.m in Sources */,
+				D4F65A6A2282DE7200215094 /* MasterViewController.mm in Sources */,
 				D4F65A672282DE7200215094 /* AppDelegate.m in Sources */,
 				D4F65A782282DE7400215094 /* main.m in Sources */,
 				D4F65A6D2282DE7200215094 /* DetailViewController.mm in Sources */,
